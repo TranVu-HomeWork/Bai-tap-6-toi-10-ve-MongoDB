@@ -11,6 +11,13 @@ const userSchema = new mongoose.Schema(
       type: Number,
       required: true,
       min: 0
+    },
+    address: {
+        city: {
+            type: String
+        },country: {
+            type: String
+        }
     }
   },
   {
